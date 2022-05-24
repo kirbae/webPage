@@ -1,0 +1,51 @@
+:root {
+--bg: #F5F5F5;
+--red: #FB4F4F;
+--text: #000333;
+--secondary: #250B32;
+--tertiary: #9510D8;
+}
+@font-face {
+  font-family: 'CaslonG';
+  src: url(../fonts/CaslonGraphique-Opti.otf);
+}
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: var(--text);
+}
+body {
+  background: var(--bg);
+}
+.contentGrid {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.headingWrap {
+  margin: inherit;
+  width: 25%;
+  float: left;
+}
+.headingWrap h1 {
+  font-size: 9em;
+  font-family: 'CaslonG', serif;
+}
+.text {
+  margin: 0;
+  padding-top: 100px;
+  width: 60%;
+  float: left;
+  font-size: 1.25em;
+}
+.text h3 {
+  font-size: 2em;
+  font-family: 'CaslonG';
+  color: var(--red);
+}
